@@ -1,6 +1,42 @@
 site_name: Documentação TI Ciss
-site_url: https://docs.ti.ciss.com.br
-
+site_url: https://GabrielAleDore.github.io/meu-projeto/
 theme:
   name: material
-  
+  # Link do reprositorio no GitHub
+  repo_url: https://github.com/GabrielAleDore/meu-projeto.git
+  repo_nome: meu-projeto
+
+  # Configs da aparencia
+  palette: 
+    # Modo Claro
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7 
+        name: Mudar para modo escuro
+    # Modo Escuro
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Mudar para modo claro
+
+
+  #Recursos extras
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+
+  #Extensões 
+  markdown_extensions:
+    - attr_list
+    - admonition
+    - pymdownx.details
+    - pymdownx.superfences
+    - pymdownx.superfences
+    - pymdownx.emoji
