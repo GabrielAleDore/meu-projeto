@@ -11,10 +11,10 @@
         <link rel="canonical" href="https://ti.ciss.github.io/meu-projeto/Documentos/Boas%20Praticas%20DELETE%2C%20UPDATE%20e%20INSERT/">
       
       
-        <link rel="prev" href="../..">
+        <link rel="prev" href="../">
       
       
-        <link rel="next" href="../../Processos/Comunica%C3%A7%C3%A3o%20com%20Clientes/">
+        <link rel="next" href="../../Processos/">
       
       
         
@@ -25,7 +25,7 @@
     
     
       
-        <title>Boas Praticas DELETE, UPDATE e INSERT - Documentação TI Ciss</title>
+        <title>Boas Praticas SQL - Documentação TI Ciss</title>
       
     
     
@@ -113,7 +113,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Boas Praticas DELETE, UPDATE e INSERT
+              Boas Praticas SQL
             
           </span>
         </div>
@@ -235,9 +235,11 @@
     
     
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="./" class="md-tabs__link">
+        <a href="../" class="md-tabs__link">
           
   
+  
+    
   
   Documentos
 
@@ -255,9 +257,11 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../Processos/Comunica%C3%A7%C3%A3o%20com%20Clientes/" class="md-tabs__link">
+        <a href="../../Processos/" class="md-tabs__link">
           
   
+  
+    
   
   Processos
 
@@ -278,6 +282,8 @@
         <a href="../../Importante/Importante/" class="md-tabs__link">
           
   
+  
+    
   
   Importante
 
@@ -356,6 +362,14 @@
   
     
     
+      
+        
+          
+        
+      
+        
+      
+    
     
     
       
@@ -372,8 +386,9 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
-            
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
   
   
   <span class="md-ellipsis">
@@ -387,8 +402,14 @@
   
   
 
-            <span class="md-nav__icon md-icon"></span>
-          </label>
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
         
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
@@ -400,6 +421,8 @@
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
             
               
                 
@@ -424,7 +447,7 @@
   <span class="md-ellipsis">
     
   
-    Boas Praticas DELETE, UPDATE e INSERT
+    Boas Praticas SQL
   
 
     
@@ -442,7 +465,7 @@
   <span class="md-ellipsis">
     
   
-    Boas Praticas DELETE, UPDATE e INSERT
+    Boas Praticas SQL
   
 
     
@@ -563,6 +586,14 @@
   
     
     
+      
+        
+          
+        
+      
+        
+      
+    
     
     
       
@@ -576,8 +607,9 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
-            
+          <div class="md-nav__link md-nav__container">
+            <a href="../../Processos/" class="md-nav__link ">
+              
   
   
   <span class="md-ellipsis">
@@ -591,8 +623,14 @@
   
   
 
-            <span class="md-nav__icon md-icon"></span>
-          </label>
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
         
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
@@ -604,6 +642,8 @@
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
             
               
                 
@@ -647,6 +687,10 @@
   
   
     
+    
+      
+        
+      
     
     
     
@@ -843,7 +887,7 @@
 <h1 id="boas-praticas">Boas praticas</h1>
 <h2 id="introducao"><strong>Introdução</strong></h2>
 <p>As operações <strong>DELETE</strong>, <strong>UPDATE</strong> e <strong>INSERT</strong> são essenciais para a manipulação de dados no Banco de dados <strong>IBM DB2</strong>, mas também representam riscos significativos se não forem executadas com cuidado.<br />
-Esta documentação aborda boas práticas para garantir a <strong>integridade</strong>, <strong>segurança</strong> e <strong>disponibilidade</strong>dos dados durante essas operações.</p>
+Esta documentação aborda boas práticas para garantir a <strong>integridade</strong>, <strong>segurança</strong> e <strong>disponibilidade</strong> dos dados durante essas operações.</p>
 <h2 id="riscos-associados-a-delete-update-e-insert"><strong>Riscos Associados a DELETE, UPDATE e INSERT</strong></h2>
 <table>
 <thead>
@@ -1016,7 +1060,7 @@ Além disso, é <strong>imprescindível</strong> adotar uma postura de extrema c
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.top", "navigation.index", "search.suggestions", "search.highlight"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.top", "navigation.indexes", "search.suggestions", "search.highlight"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
