@@ -54,12 +54,12 @@ hide:
 
   <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
     
-    <a href="Documentos/documentos/" class="md-button" 
+    <a href="Documentos/" class="md-button" 
        style="background-color: #3f51b5; color: white; border: none; padding: 15px 30px; border-radius: 50px; font-weight: bold; font-size: 1.1rem;">
       Acessar Documentos
     </a>
 
-    <a href="Processos/processos/" class="md-button" 
+    <a href="Processos/" class="md-button" 
        style="background-color: rgba(255,255,255,0.1); color: white; border: 2px solid white; padding: 13px 30px; border-radius: 50px; font-weight: bold; font-size: 1.1rem; backdrop-filter: blur(5px);">
       Ver Processos
     </a>

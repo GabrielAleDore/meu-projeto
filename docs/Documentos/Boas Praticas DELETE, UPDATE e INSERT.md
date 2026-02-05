@@ -3,7 +3,7 @@
 ## **Introdução**
 
 As operações **DELETE**, **UPDATE** e **INSERT** são essenciais para a manipulação de dados no Banco de dados **IBM DB2**, mas também representam riscos significativos se não forem executadas com cuidado.  
-Esta documentação aborda boas práticas para garantir a **integridade**, **segurança** e **disponibilidade**dos dados durante essas operações.
+Esta documentação aborda boas práticas para garantir a **integridade**, **segurança** e **disponibilidade** dos dados durante essas operações.
 
 ## **Riscos Associados a DELETE, UPDATE e INSERT**
 
