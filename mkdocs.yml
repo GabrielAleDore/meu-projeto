@@ -1,45 +1,57 @@
+#Nome e URL do site
 site_name: Documentação TI Ciss
-site_url: https://GabrielAleDore.github.io/meu-projeto/
+site_url: https://ti.ciss.github.io/meu-projeto/
+
+#Tema e configurações do Material for MkDocs
 theme:
   name: material
-  # Link do reprositorio no GitHub
-  repo_url: https://github.com/GabrielAleDore/meu-projeto.git
-  repo_nome: meu-projeto
+  logo: imagens/logo-ciss.png       #Logo no canto superior esquerdo
+  favicon: imagens/logo-ciss.png    #Icone da aba do navegador
 
-  # Configs da aparencia
-  palette: 
-    # Modo Claro
-    - scheme: default
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-7 
-        name: Mudar para modo escuro
-    # Modo Escuro
-    - scheme: slate
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-4
-        name: Mudar para modo claro
-
-
-  #Recursos extras
   features:
-    - navigation.tabs
-    - navigation.sections
-    - navigation.top
-    - search.suggest
-    - search.highlight
+    - navigation.tabs        # Habilita abas de navegação
+    - navigation.tabs.sticky # Guarda o menu
+    - navigation.top         # Botão para voltar ao topo
+    - navigation.index       # Permite clicar no nome da pasta para abrir
+    - search.suggestions     # Sugestões de busca
+    - search.highlight       # Destaca termos buscados
 
-  #Extensões 
-  markdown_extensions:
-    - attr_list
-    - admonition
-    - pymdownx.details
-    - pymdownx.superfences
-    - pymdownx.superfences
-    - pymdownx.emoji
+  palette:
+    # Modo Claro
+      - scheme: default
+        primary: indigo
+        accent: indigo
+        logo: imagens/logo-ciss.png
+        toggle:
+          icon: material/brightness-7 
+          name: Mudar para modo escuro
+      # Modo Escuro
+      - scheme: slate
+        primary: indigo
+        accent: indigo
+        logo: imagens/logo-ciss-white.png
+        toggle:
+          icon: material/brightness-4
+          name: Mudar para modo claro
 
-  extra_css:
-    - docs/stylesheets/extra.css
+#Configurações de navegação
+nav:
+  - Home: index.md
+  - Documentos:
+    - 'Documentos': Documentos/documentos.md
+  - Processos:
+    - 'Processos': Processos/Processos.md
+  - Importante:
+    - 'Importante': Importante/Importante.md
+
+
+markdown_extensions:
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji
+
+extra_css:
+  - estilos/Home.css
+  - estilos/Cabecalho.css

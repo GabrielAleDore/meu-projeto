@@ -1,0 +1,25 @@
+/* ========================================================
+   ESTILO GLOBAL (Vale para todas as páginas, MENOS a Home)
+   ======================================================== */
+
+/* Cabeçalho com efeito de vidro (Blur) nas páginas comuns */
+.md-header {
+  background-color: rgba(30, 30, 30, 0.95) !important; /* Quase preto/sólido */
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255,255,255,0.1); /* Linha sutil para separar */
+}
+
+/* Garante que o texto do cabeçalho seja sempre legível */
+.md-header__title, .md-tabs__link {
+    color: white !important;
+}
+
+/* Se estiver no modo claro, ajusta para fundo branco */
+[data-md-color-scheme="default"] .md-header {
+  background-color: rgba(255, 255, 255, 0.95) !important;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+[data-md-color-scheme="default"] .md-header__title, 
+[data-md-color-scheme="default"] .md-tabs__link {
+    color: #3f51b5 !important; /* Azul Indigo */
+}
