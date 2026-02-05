@@ -4,27 +4,17 @@ hide:
     - toc
 ---
 
-# Welcome to MkDocs
+<div class="md-grid md-typeset" style="max-width: 900px; margin: 0 auto; text-align: center;">
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+  <h1 style="font-size: 3em; font-weight: bold; margin-bottom: 20px;">
+    Documentação TI Ciss
+  </h1>
 
-## Commands
+  <p style="font-size: 1.2em; color: #555; margin-bottom: 40px;">
+    Tudo o que você precisa saber sobre nossos processos, infraestrutura e sistemas em um só lugar.
+  </p>
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
-
-<div class="grid" markdown>
-
-    [Acessar](#){ .md-button .md-button-primary}
-    [Saber mais](#){.md-button}
+  [Acessar Documentação](getting-started.md){ .md-button .md-button--primary }
+  [Saber Mais](#){ .md-button }
 
 </div>
