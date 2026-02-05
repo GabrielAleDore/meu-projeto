@@ -10,7 +10,7 @@ theme:
 
   features:
     - navigation.tabs        # Habilita abas de navegação
-    - navigation.tabs.sticky # Guarda o menu
+#    - navigation.tabs.sticky # Guarda o menu
     - navigation.top         # Botão para voltar ao topo
     - navigation.index       # Permite clicar no nome da pasta para abrir
     - search.suggestions     # Sugestões de busca
@@ -38,9 +38,9 @@ theme:
 nav:
   - Home: index.md
   - Documentos:
-    - 'Documentos': Documentos/documentos.md
+    - 'Boas Praticas DELETE, UPDATE e INSERT': Documentos/Boas Praticas DELETE, UPDATE e INSERT.md
   - Processos:
-    - 'Processos': Processos/Processos.md
+    - 'Comunicação com Clientes': Processos/Comunicação com Clientes.md
   - Importante:
     - 'Importante': Importante/Importante.md
 

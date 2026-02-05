@@ -9,7 +9,6 @@
 /* --- TÍTULOS --- */
 /* Removemos o "color: white" forçado. Agora usamos a cor padrão do tema */
 .md-typeset h1 {
-    font-size: 3rem;
     font-weight: 800; /* Extra bold */
     margin-bottom: 1rem;
     
@@ -25,7 +24,7 @@
 
 /* --- PARÁGRAFOS --- */
 .md-typeset p {
-    font-size: 1.2rem;
+
     /* Usa a cor padrão do tema (cinza escuro no claro, cinza claro no escuro) */
     color: var(--md-default-fg-color); 
     opacity: 0.8; /* Deixa levemente mais suave */
@@ -69,9 +68,3 @@ a[href$="#btn"] {
     color: var(--md-primary-fg-color) !important;
     background-color: transparent;
 }
-/*
-a[href$="#btn"]:hover {
-    /* Fundo suave com a cor primária bem transparente 
-    background-color: rgba(100, 100, 100, 0.1); 
-}
-*/

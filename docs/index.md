@@ -32,7 +32,7 @@ hide:
   /* Força os textos do menu a serem brancos na Home */
   .md-header__title, .md-tabs__link, .md-header__button {
       color: white !important;
-      text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+      text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
   }
 
   /* Centraliza verticalmente */
