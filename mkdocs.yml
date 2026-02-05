@@ -40,3 +40,6 @@ theme:
     - pymdownx.superfences
     - pymdownx.superfences
     - pymdownx.emoji
+
+  extra_css:
+    - stylesheets/extra.css
