@@ -9,8 +9,7 @@ theme:
   favicon: imagens/logo-ciss.png    #Icone da aba do navegador
 
   features:
-    - navigation.tabs        # Habilita abas de navegação
-#    - navigation.tabs.sticky # Guarda o menu
+    - navigation.tabs        # Habilita abas de navegação e esconde o menu
     - navigation.top         # Botão para voltar ao topo
     - navigation.indexes       # Permite clicar no nome da pasta para abrir
     - search.suggestions     # Sugestões de busca
@@ -40,6 +39,7 @@ nav:
   - Documentos:
     - Documentos/index.md
     - 'Boas Praticas SQL': Documentos/Boas Praticas DELETE, UPDATE e INSERT.md
+    - 'Priorização de tickets': Documentos/Priorização de tickets.md
   - Processos:
     - Processos/index.md
     - 'Comunicação com Clientes': Processos/Comunicação com Clientes.md

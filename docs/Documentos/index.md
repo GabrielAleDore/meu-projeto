@@ -11,7 +11,7 @@ Bem-vindo à área de documentação técnica.
 
 - **Priorização de tickts**
 
-    [Acessar](teste.md){ .md-button }
+    [Acessar](Priorizaçãp de tickets.md){ .md-button }
 
 </div>
 
