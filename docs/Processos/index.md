@@ -4,7 +4,7 @@ Bem-vindo à área de documentação técnica.
 
 <div class="grid cards" markdown>
 
-- **Comusicação Com Clientes**
+- **Comunicação Com Clientes**
 
 
     [Acessar](Comunicação Com Clientes.md){ .md-button }
