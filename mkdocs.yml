@@ -1,60 +1,31 @@
-#Nome e URL do site
-site_name: Documentação TI Ciss
-site_url: https://ti.ciss.github.io/meu-projeto/
+# Informações do projeto
+site_name: Documentações Time de Script
+site_url: https://Documentacoes-ti-script.com/docs
+site_author: Gabriel Doré
 
-#Tema e configurações do Material for MkDocs
+# Configurações
 theme:
   name: material
-  logo: imagens/logo-ciss.png       #Logo no canto superior esquerdo
-  favicon: imagens/logo-ciss.png    #Icone da aba do navegador
 
-  features:
-    - navigation.tabs        # Habilita abas de navegação e esconde o menu
-    - navigation.top         # Botão para voltar ao topo
-    - navigation.indexes       # Permite clicar no nome da pasta para abrir
-    - search.suggestions     # Sugestões de busca
-    - search.highlight       # Destaca termos buscados
-
-  palette:
-    # Modo Claro
-      - scheme: default
-        primary: indigo
-        accent: indigo
-        logo: imagens/logo-ciss.png
-        toggle:
-          icon: material/brightness-7 
-          name: Mudar para modo escuro
-      # Modo Escuro
-      - scheme: slate
-        primary: indigo
-        accent: indigo
-        logo: imagens/logo-ciss-white.png
-        toggle:
-          icon: material/brightness-4
-          name: Mudar para modo claro
-
-#Configurações de navegação
-nav:
-  - Home: index.md
-  - Documentos:
-    - Documentos/index.md
-    - 'Boas Praticas SQL': Documentos/Boas Praticas DELETE, UPDATE e INSERT.md
-    - 'Priorização de tickets': Documentos/Priorização de tickets.md
-  - Processos:
-    - Processos/index.md
-    - 'Comunicação com Clientes': Processos/Comunicação com Clientes.md
-  - Importante:
-    - 'Importante': Importante/Importante.md
-
-
-markdown_extensions:
-  - attr_list
-  - md_in_html
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.emoji
-
-extra_css:
-  - estilos/Home.css
-  - estilos/Cabecalho.css
+  # Conguração de corres
+  palette: 
+    # Modo Claro, Escuro e padrão do sistema
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/brightness-5
+        name: Switch to system preference
+  
